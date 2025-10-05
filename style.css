@@ -52,17 +52,21 @@ body {
 
 .sidebar {
     width: 220px;
-    background-color: #eeeeee;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .sidebar-section {
-    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .section-title {
     font-weight: bold;
-    margin: 10px 0 5px 0;
+    margin: 0 0 5px 0;
 }
 
 .sidebar ul {
